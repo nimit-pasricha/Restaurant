@@ -1,12 +1,23 @@
+import image from "./cake.jpg";
+
 function createHomePage() {
   const content = document.querySelector("#content");
   content.innerHTML = "";
 
   // SHOP NAME HEADING
 
+  const shopNameHeader = document.createElement("div");
+  shopNameHeader.id = "#shop-name-header";
+  content.appendChild(shopNameHeader);
+
   const shopNameHeading = document.createElement("h1");
   shopNameHeading.textContent = "Cole's Cake Club";
-  content.appendChild(shopNameHeading);
+  shopNameHeader.appendChild(shopNameHeading);
+
+  const cakeImage = new Image();
+  cakeImage.src = image;
+  cakeImage.id = "cake-image";
+  shopNameHeader.appendChild(cakeImage);
 
   // QUOTE FROM CUSTOMER
 
