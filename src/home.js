@@ -1,16 +1,17 @@
 function createHomePage() {
-  const contentContainer = document.querySelector("#content");
+  const content = document.querySelector("#content");
+  content.innerHTML = "";
 
   // SHOP NAME HEADING
 
   const shopNameHeading = document.createElement("h1");
   shopNameHeading.textContent = "Cole's Cake Club";
-  contentContainer.appendChild(shopNameHeading);
+  content.appendChild(shopNameHeading);
 
   // QUOTE FROM CUSTOMER
 
   const quoteFromCustomer = document.createElement("div");
-  contentContainer.appendChild(quoteFromCustomer);
+  content.appendChild(quoteFromCustomer);
 
   const quoteItself = document.createElement("div");
   quoteItself.id = "quote-itself";
@@ -27,7 +28,7 @@ function createHomePage() {
 
   const hours = document.createElement("div");
   hours.id = "hours";
-  contentContainer.appendChild(hours);
+  content.appendChild(hours);
 
   const hoursHeader = document.createElement("h2");
   hoursHeader.id = "hours-header";
@@ -69,7 +70,7 @@ function createHomePage() {
   // LOCATION
 
   const locationBox = document.createElement("div");
-  contentContainer.appendChild(locationBox);
+  content.appendChild(locationBox);
 
   const locationHeader = document.createElement("h2");
   locationHeader.textContent = "Location";

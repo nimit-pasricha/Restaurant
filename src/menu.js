@@ -1,16 +1,17 @@
 function createMenuPage() {
-  const contentContainer = document.querySelector("#content");
+  const content = document.querySelector("#content");
+  content.innerHTML = "";
 
   // MENU HEADING
 
   const menuHeading = document.createElement("h1");
   menuHeading.textContent = "Menu";
-  contentContainer.appendChild(menuHeading);
+  content.appendChild(menuHeading);
 
   // MENU ITEMS
 
   const menuItemList = document.createElement("ul");
-  contentContainer.appendChild(menuItemList);
+  content.appendChild(menuItemList);
 
   const menuItem1 = document.createElement("li");
   menuItemList.appendChild(menuItem1);
