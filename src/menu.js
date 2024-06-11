@@ -4,6 +4,7 @@ function createMenuPage() {
   // MENU HEADING
 
   const menuHeading = document.createElement("h1");
+  menuHeading.textContent = "Menu";
   contentContainer.appendChild(menuHeading);
 
   // MENU ITEMS
