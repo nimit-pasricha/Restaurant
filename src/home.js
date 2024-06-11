@@ -7,7 +7,7 @@ function createHomePage() {
   // SHOP NAME HEADING
 
   const shopNameHeader = document.createElement("div");
-  shopNameHeader.id = "#shop-name-header";
+  shopNameHeader.id = "shop-name-header";
   content.appendChild(shopNameHeader);
 
   const shopNameHeading = document.createElement("h1");

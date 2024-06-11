@@ -1,0 +1,9 @@
+#shop-name-header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#cake-image {
+  width: 240px;
+}
