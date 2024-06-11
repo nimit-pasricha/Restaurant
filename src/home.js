@@ -4,6 +4,7 @@ function createHomePage() {
   // SHOP NAME HEADING
 
   const shopNameHeading = document.createElement("h1");
+  shopNameHeading.textContent = "Cole's Cake Club";
   contentContainer.appendChild(shopNameHeading);
 
   // QUOTE FROM CUSTOMER
