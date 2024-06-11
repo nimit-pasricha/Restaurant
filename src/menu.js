@@ -48,8 +48,6 @@ function createMenuPage() {
   menuItem3Description.textContent =
     "A very big, delicious cake founded on a very big vanilla base, topped with very big cherries and chocolate and prepared with lots and lots of love";
   menuItem3.appendChild(menuItem3Description);
-
-  // TODO: ADD THE CONTENTS OF EACH MENU ITEM
 }
 
 export { createMenuPage };
